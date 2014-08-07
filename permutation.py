@@ -13,7 +13,9 @@ def find_cash_3(number_list):
 		print "not a cash 3 list"
 	else:
 		list_one = [number_list[0], number_list[1]]
+		list_two = [number_list[1], number_list[2]]
 		find_permutations(list_one, 0)
-		
+		find_permutations(list_two, 0)
+
 test_list = [1,2,3]
-find_permutations(test_list,0)
+find_cash_3(test_list)
